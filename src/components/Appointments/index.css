@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.bg1 {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bg2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 30px;
+}
+.bg3 {
+  display: flex;
+  flex-direction: row;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.min1 {
+  display: flex;
+  flex-direction: column;
+  width: 4ovw;
+}
+.head {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.title-label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.min2 {
+  width: 40vw;
+}
+.image {
+  height: auto;
+  width: auto;
+}
+.title-label {
+  margin: 10px;
+}
+.horizontal-line {
+  border: 1px solid #9897f6;
+}
+.appointment-head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appointments {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.starred {
+  background-color: transparent;
+  border: 1px solid #bfb7f4;
+}
+.appointments-list {
+  display: flex;
+  flex-direction: row;
+}
